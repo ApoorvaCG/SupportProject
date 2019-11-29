@@ -4,6 +4,7 @@
   "description": "A platform where anyone can show support for causes they believe in",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,8 +21,11 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
     "eslint": "^6.7.1",
     "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.1"
   }
 }
